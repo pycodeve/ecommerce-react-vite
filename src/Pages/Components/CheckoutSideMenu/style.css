@@ -1,0 +1,9 @@
+.checkout-side-menu{
+    top: 68px;
+    width: 360px;
+    height: calc(100vh - 68px);
+}
+
+.productos-checkout-container{
+    height: calc(100vh - 68px - 180px);
+}
