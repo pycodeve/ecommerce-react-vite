@@ -31,7 +31,7 @@ const AppRoutes = () => {
 const App = () => {
   return (
     <ShoppingCartProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/ecommerce-react-vite">
         <AppRoutes />
         <Navbar />
         <CheckoutSideMenu />
